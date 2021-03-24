@@ -1,0 +1,186 @@
+.page-content {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 720px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+
+}
+
+.bottom-options {
+    position: absolute;
+    top: 98%;
+    left: 0;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.bottom-options2 {
+    display: inline;
+    position: absolute;
+    top: 98%;
+    left: 72%;
+    margin-top: 4px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #1c1d1f;
+    font-weight: bold;
+}
+
+.gray-border {
+    border: gainsboro 1px solid;
+    border-radius: 7px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 720px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 540px;
+
+}
+
+.main-content {
+    float: left;
+}
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+h1 {
+    color: black;
+    font-size: 24px;
+}
+
+h2 {
+    color: #1f1f20;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 4px;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #5f6368;
+    font-weight: bold;
+}
+
+.google-logo {
+    width: 90px;
+    height: auto;
+}
+
+.input-name, .input-surname {
+    border: gainsboro 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    display: inline;
+    margin: 3px;
+    margin-bottom: 15px;    
+}
+
+.input-username, .label-username{
+
+    position: relative;
+    padding-right: 76px;
+    width: 170px;
+    box-sizing: border-box;
+    border: gainsboro 1px solid;
+    border-radius: 5px;
+    display: block;
+    height: 35px;
+    width: 362px;
+}
+
+.label-username::after {
+
+    content: '.' attr(domain);
+    position: absolute;
+    top: 6px;
+    left: 265px;
+    font-size: 15px;
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+.input-password, .input-repassword{ 
+    margin-top: 15px;
+    border: gainsboro 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    display: inline;
+    margin: 3px;
+}
+
+.label-checkbox {
+    display: block;
+    margin-bottom: 65px;
+}
+
+span:hover, .input-select:hover, .label-checkbox:hover, .input-checkbox:hover, .login-instead:hover, .submit-button:hover{
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color:dodgerblue;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: royalblue;
+}
+
+.login-instead {
+    border: none;
+    background-color: white;
+    color: dodgerblue;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-right: 75px;
+}
+
+.login-instead:hover {
+    height: 35px;
+    background-color: lightcyan;
+}
+
+.account-logo {
+    float: right;
+    width: 240px;
+    height: auto;
+}
+
+.slogan {
+    font-size: 16px;
+    display: block;
+    clear: right;
+    text-align: center;
+}
+
+.secondary-content {
+    margin-top: 8%;
+    align-content: center;
+    margin-left: 50px;
+}
+
+.input-select {
+    border: none;
+}
